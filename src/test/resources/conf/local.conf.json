@@ -1,0 +1,16 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "revathydemo_besaxo",
+  "key": "TLypWLLcu5Ys3qiCjUYY",
+
+  "capabilities": {
+    "build": "cucumber-java-browserstack",
+    "browserstack.debug": true,
+    "browserstack.local": true,
+    "browserstack.networkLogs":true
+  },
+
+  "environments": [{
+    "browser": "chrome"
+  }]
+}
